@@ -3,8 +3,8 @@ const assertEqual = function(actual, expected) {
     console.log(`🤑 Assertion Passed: ${actual} === ${expected}`);
   } else {
     console.assert(actual === expected, `${actual} !== ${expected}`);
-  }
-  }
+  } 
+}
 
 assertEqual('Lighthouse Labs', 'Bootcamp');
 assertEqual(1,1);
