@@ -15,9 +15,10 @@
 const middle = function(array) {
   if(array.length <= 2 ) {
     return []; 
-  } if(array.length % 2 === 0) {
-    const middle1 = array.length / 2 - 1
-    const middle2 = array.length / 2 
+  } 
+  if(array.length % 2 === 0) {
+    const middle1 = array.length / 2 - 1;
+    const middle2 = array.length / 2;
     return [array[middle1], array[middle2]];
   }
   const index = Math.floor(array.length/2)
