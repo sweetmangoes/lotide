@@ -25,15 +25,4 @@ const middle = function(array) {
   return [array[index]] ; 
 }
 
-
-
-// test case
-// middle([1,2,3,4])
-// middle([1,2])
-// middle([1,2,3,4,5])
-// middle([1,2,3])
-
-console.log(middle([1,2])) // => []
-console.log(middle([1,2,3])) // => [2]
-console.log(middle([1,2,3,4,5,6,7,8])) // => [2,3]
-
+module.exports = middle; 
